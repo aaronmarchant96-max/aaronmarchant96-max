@@ -27,7 +27,7 @@ Current highlights:
 Case 006: Policy vs poisoned retrieved context
 Case 007: Refund authorization boundary testing
 Case 008: Transcript rule application rater validation
-```
+
 This project focuses on practical AI evaluation, not broad benchmark claims. The goal is to test narrow behaviors, log outputs, separate schema stability from meaning preservation, and keep conclusions proportional to the evidence.
 
 UAP Footage Analyzer
