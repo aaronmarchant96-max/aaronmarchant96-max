@@ -201,10 +201,10 @@ Most of my projects follow the same pattern:
 ## Technical Environment
 
 ```text
+Python
+JavaScript
 React
 Vite
-Python
-JavaScript / React
 OpenCV
 JSONL logging
 Ollama
@@ -212,7 +212,6 @@ Groq API
 Linux / Tuxedo OS
 CPU-only local inference
 GitHub CLI
-Vite
 ```
 
 ## What I Am Building Toward
