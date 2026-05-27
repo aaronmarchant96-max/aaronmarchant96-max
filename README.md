@@ -61,6 +61,17 @@ My focus is not broad claims. My focus is narrow tests that can be run, inspecte
 | Anomaly workflows | Public footage and satellite pipelines that extract candidates without overclaiming |
 | Argument evaluation | Debate Furnace, a React prototype for pressure-testing both sides of a question |
 
+## Best Place To Start
+
+If you are reviewing this portfolio quickly, start here:
+
+1. **Arena Harness**  
+   The strongest AI evaluation repo, with case studies, structured evidence, and repeatable test design.
+2. **QA Artifacts**  
+   Job-facing QA and UAT examples inside [llm-adversarial-testing/qa_artifacts](https://github.com/aaronmarchant96-max/llm-adversarial-testing/tree/main/qa_artifacts).
+3. **Debate Furnace**  
+   A product-style React app that shows how I turn structured reasoning ideas into a usable tool.
+
 ## Featured Projects
 
 ### 1. Arena Harness
