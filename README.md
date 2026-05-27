@@ -72,6 +72,12 @@ If you are reviewing this portfolio quickly, start here:
 3. **Debate Furnace**  
    A product-style React app that shows how I turn structured reasoning ideas into a usable tool.
 
+## Experience
+
+I also do paid AI rating work through TELUS Digital involving audio review, image-result satisfaction, writing-quality evaluation, and text-response assessment.
+
+This work supports my broader portfolio focus on guideline following, careful judgment, expected-vs-actual review, and clear rationale writing.
+
 ## Featured Projects
 
 ### 1. Arena Harness
