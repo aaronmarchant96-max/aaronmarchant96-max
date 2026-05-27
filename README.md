@@ -1,4 +1,36 @@
-# PromptHound
+# PromptHound Labs
+
+> I build AI tools that turn messy information into something people can actually use.
+
+PromptHound Labs is where I build small, focused AI tools and testing projects.
+
+I am not trying to make a giant startup or sell myself as a senior software engineer. I am building practical tools that solve clear problems. The common thread is simple: take something messy, break it down, test it, document it, and make it easier to use.
+
+My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I like finding where AI systems get confused, where outputs drift, where instructions break down, and where a messy result can be turned into clear evidence.
+
+I use AI assisted development tools, but I do not treat them like magic. I still have to frame the problem, review the output, run the checks, test the app, clean up the docs, and decide whether the work is good enough to ship.
+
+I am still building my coding foundation. My strength is problem solving, testing, organizing messy behavior, and explaining what happened in a way someone else can actually follow.
+
+## How I Build
+
+Every project follows the same basic process:
+
+| Step | What I do | Why it matters |
+|---|---|---|
+| 1. Idea | Notice a bug, pattern, failure mode, or gap | Find something worth solving |
+| 2. Framing | Define the problem and boundaries | Keep the work focused |
+| 3. AI Prompt | Give the AI a small scoped task | Use AI for help with execution |
+| 4. Build | Create a first working version | Get something real to inspect |
+| 5. Verify | Run builds, scripts, diffs, logs, and checks | Catch obvious problems early |
+| 6. Manual Review | Test the app, output, and docs myself | Act as the quality gate |
+| 7. Commit | Save one clean change at a time | Keep the work traceable |
+| 8. Push | Publish the work on GitHub | Keep public proof |
+| 9. Case Study | Explain what changed, why it matters, and what the limits are | Show the value without overclaiming |
+
+That process is the main theme of my portfolio.
+
+I am not just trying to generate code. I am trying to build a repeatable way to test ideas, catch weak spots, and turn rough AI behavior into something structured, reviewable, and useful.
 
 **AI evaluation | LLM red teaming | structured output reliability | computer vision event extraction**
 
@@ -152,6 +184,8 @@ Most of my projects follow the same pattern:
 ## Technical Environment
 
 ```text
+React
+Vite
 Python
 JavaScript / React
 OpenCV
