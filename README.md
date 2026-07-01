@@ -1,3 +1,8 @@
+<!--
+CARDO REI methodology applied to this document.
+Reference: [CARDO REI Methodology](PROMPTHOUND-DOCS/CARDO-REI.md)
+-->
+
 # PromptHound Labs
 
 > I build AI tools that turn messy information into something people can actually use.
@@ -6,11 +11,34 @@ PromptHound Labs is where I build small, focused AI tools and testing projects.
 
 I am not trying to make a giant startup or sell myself as a senior software engineer. I am building practical tools that solve clear problems. The common thread is simple: take something messy, break it down, test it, document it, and make it easier to use.
 
+## About Me
+
+I'm a self-taught builder from Calgary, Alberta. Started with my first computer in December 2025, began experimenting with AI and development in April 2026. High school dropout turned construction worker, now building production-grade AI systems. Age 30, with no formal CS education - everything is self-learned through hands-on building.
+
+I operate a **brain bank** of 4 CLI tools and 6 LLM models (including ChatGPT 5.5 for pro reasoning) that I use for cross-referencing, validation, and feedback. This multi-AI approach helps me pinpoint gaps, refine my methodology, and accelerate learning.
+
+In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **294 commits** across my repos. Currently employed as a **Data Annotator at TELUS**, proving that skills beat degrees.
+
 My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I like finding where AI systems get confused, where outputs drift, where instructions break down, and where a messy result can be turned into clear evidence.
 
 I use AI assisted development tools, but I do not treat them like magic. I still have to frame the problem, review the output, run the checks, test the app, clean up the docs, and decide whether the work is good enough to ship.
 
-I am still building my coding foundation. My strength is problem solving, testing, organizing messy behavior, and explaining what happened in a way someone else can actually follow.
+I’m learning in a way that fits how the industry works right now. I use AI a lot to explore ideas, build, and ship, while I keep taking courses on the side. My job is to direct the tools well: break problems down, review the output critically, keep the structure consistent, and make the limits and evidence easy to see. As I build depth, I go back through the code to really understand it. That mix of fast iteration and deliberate learning is how I’m trying to get effective quickly without skipping the fundamentals.
+
+## Methodology: CARDO REI
+
+Every project follows **CARDO REI** - a methodology I created (inspired by Michio Kaku's philosophy) for structured reasoning across any domain:
+
+- **C**ollect: Gather all relevant information, data, and context
+- **A**nalyze: Examine patterns, identify limits, separate fact from interpretation
+- **R**ecord: Document with full citations and source trails
+- **D**istinguish: Keep evidence separate from inference, facts from stories
+- **O**rganize: Structure information for human review and action
+- **R**eview: Validate against known truths, check for gaps and conflicts
+- **E**valuate: Assign confidence levels, make cost-weighted decisions
+- **I**terate: Refine based on feedback and new evidence
+
+This methodology is the foundation of all my work, from AI evaluation to genealogy research. It ensures every output is **structured, reviewable, and evidence-based**.
 
 ## How I Build
 
@@ -53,6 +81,8 @@ My focus is not broad claims. My focus is narrow tests that can be run, inspecte
 
 ## What I Build
 
+**At the core:** I build structured reasoning systems that turn messy inputs into reviewable evidence. My tools operate across multiple domains, all unified by the CARDO REI methodology.
+
 | Area | Current proof of work |
 |---|---|
 | LLM evaluation | Local adversarial harnesses, pressure tests, policy boundary checks, and structured output reliability tests |
@@ -60,6 +90,11 @@ My focus is not broad claims. My focus is narrow tests that can be run, inspecte
 | Computer vision | Local OpenCV pipelines for event extraction, motion review, and candidate triage |
 | Anomaly workflows | Public footage and satellite pipelines that extract candidates without overclaiming |
 | Argument evaluation | Debate Furnace, a React prototype for pressure-testing both sides of a question |
+| Cost-benefit analysis | CARDO GUARD, a decision engine that weighs AI risk scores against economic consequences |
+| Industrial monitoring | Tracepoint, equipment signal analysis with cost-optimized action recommendations |
+| Weather analysis | Storm Replay, historical weather imagery calibration and detection validation |
+| Creative transformation | Story Forge, source-to-story blueprints with genre remixing |
+| Genealogy research | Family Archive, a production pipeline with 117 profiles, 73 documents, and live deployment |
 
 ## Best Place To Start
 
@@ -74,9 +109,21 @@ If you are reviewing this portfolio quickly, start here:
 
 ## Experience
 
-I also do paid AI rating work through TELUS Digital involving audio review, image-result satisfaction, writing-quality evaluation, and text-response assessment.
+### Professional
+- **Data Annotator, TELUS Digital** (Current): Paid AI rating work involving audio review, image-result satisfaction, writing-quality evaluation, and text-response assessment. This work directly supports my portfolio focus on guideline following, careful judgment, expected-vs-actual review, and clear rationale writing.
 
-This work supports my broader portfolio focus on guideline following, careful judgment, expected-vs-actual review, and clear rationale writing.
+### Self-Taught Journey
+- **December 2025**: First computer
+- **April 2026**: Started with AI and development
+- **June 24-26, 2026**: Shipped **6 production systems in 11 days** (294 commits total)
+- **Ongoing**: Continuous learning with 4 CLI tools + 6 LLM models as a "brain bank" for cross-referencing and validation
+
+### Key Stats
+- **294+ commits** across 6+ repositories
+- **6 production systems** built and shipped in 11 days
+- **24 passing Jest tests** in family-archive
+- **117 people**, 73 documents in the live Family Archive
+- **Multi-AI orchestration**: Using multiple models as thinking partners for validation and refinement
 
 ## Featured Projects
 
@@ -183,6 +230,36 @@ annotated frame snapshots
 
 This is not facial recognition, object identification, or production surveillance. It is a local event extraction demo.
 
+### 6. CARDO GUARD
+
+**Repo:** [llm-adversarial-testing](https://github.com/aaronmarchant96-max/llm-adversarial-testing) (integrated)
+
+A cost-benefit decision engine that weighs AI risk scores against economic consequences. Built on the principle that "AI confidence is not the decision - cost-weighted consequence is the decision gate."
+
+### 7. Tracepoint
+
+**Repo:** [Private/Industrial] (Integrated into workflow)
+
+Industrial signal monitoring with cost-optimized action recommendations. Tracks equipment signals (vibration, temperature, pressure, flow) and provides human-review-ready decision support.
+
+### 8. Storm Replay
+
+**Repo:** [Private/Weather] (Integrated into workflow)
+
+Historical weather imagery calibration system. Tests detection systems against known events (like the Dec 10-11, 2021 tornado outbreak) to validate thresholds and reduce false negatives.
+
+### 9. Story Forge
+
+**Repo:** [Private/Creative] (Integrated into workflow)
+
+Source-to-story transformation engine. Takes real historical events (like the Donner Party) and generates genre-remixed narratives while maintaining visible source trails.
+
+### 10. Family Archive
+
+**Repo:** [family-archive](https://github.com/aaronmarchant96-max/family-archive) | **Live:** [family-archive-rose.vercel.app](https://family-archive-rose.vercel.app)
+
+A production-grade genealogy research pipeline with 117 people, 73 documents, and 3 family stories. Features automated testing (24 passing Jest tests), CSV-to-JSON ETL, and deployment on Vercel.
+
 ## Common Workflow
 
 Most of my projects follow the same pattern:
@@ -233,3 +310,20 @@ Can the tool be improved?
 Email: prompthound.ai@gmail.com  
 X: [@PromptHound96](https://twitter.com/PromptHound96)  
 GitHub: [aaronmarchant96-max](https://github.com/aaronmarchant96-max)
+
+---
+
+## My Philosophy
+
+**Structured outputs for messy input. Bring the hard question. We'll find the hinge.**
+
+I don't claim to be an expert in any single domain. But I've built a **methodology (CARDO REI)** and a **brain bank (4 CLIs + 6 LLMs)** that lets me learn fast, build faster, and ship production-grade systems across multiple domains.
+
+What I bring:
+- **Self-taught relentlessness**: From zero to production in months
+- **Methodology-first thinking**: CARDO REI works across any problem
+- **Multi-AI orchestration**: Using multiple models as thinking partners
+- **Production mindset**: 294 commits, 6 systems, 11 days. Live site. Real impact.
+- **No excuses**: High school dropout, construction background, age 30. Proof that skills > degrees.
+
+**I'm not waiting for permission. I'm building the future.**
