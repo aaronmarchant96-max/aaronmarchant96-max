@@ -13,11 +13,11 @@ I am not trying to make a giant startup or sell myself as a senior software engi
 
 ## About Me
 
-I'm a self-taught builder from Calgary, Alberta. Started with my first computer in December 2025, began experimenting with AI and development in April 2026. High school dropout turned construction worker, now building production-grade AI systems. Age 30, with no formal CS education - everything is self-learned through hands-on building.
+I'm a self-taught builder from Calgary, Alberta. Started with my first computer in December 2025, began experimenting with AI and development in April 2026. Now building production-grade AI systems. Age 30, with no formal CS education - everything is self-learned through hands-on building.
 
 I operate a **brain bank** of 4 CLI tools and 6 LLM models (including ChatGPT 5.5 for pro reasoning) that I use for cross-referencing, validation, and feedback. This multi-AI approach helps me pinpoint gaps, refine my methodology, and accelerate learning.
 
-In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **294 commits** across my repos. Currently employed as a **Data Annotator at TELUS**, proving that skills beat degrees.
+In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **689 commits** across my repos. Currently employed as a **Data Annotator at TELUS**, proving that skills beat degrees.
 
 My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I like finding where AI systems get confused, where outputs drift, where instructions break down, and where a messy result can be turned into clear evidence.
 
@@ -115,11 +115,11 @@ If you are reviewing this portfolio quickly, start here:
 ### Self-Taught Journey
 - **December 2025**: First computer
 - **April 2026**: Started with AI and development
-- **June 24-26, 2026**: Shipped **6 production systems in 11 days** (294 commits total)
+- **June 24-26, 2026**: Shipped **6 production systems in 11 days** (689 commits total)
 - **Ongoing**: Continuous learning with 4 CLI tools + 6 LLM models as a "brain bank" for cross-referencing and validation
 
 ### Key Stats
-- **294+ commits** across 6+ repositories
+- **689+ commits** across 6+ repositories
 - **6 production systems** built and shipped in 11 days
 - **24 passing Jest tests** in family-archive
 - **117 people**, 73 documents in the live Family Archive
@@ -323,7 +323,7 @@ What I bring:
 - **Self-taught relentlessness**: From zero to production in months
 - **Methodology-first thinking**: CARDO REI works across any problem
 - **Multi-AI orchestration**: Using multiple models as thinking partners
-- **Production mindset**: 294 commits, 6 systems, 11 days. Live site. Real impact.
-- **No excuses**: High school dropout, construction background, age 30. Proof that skills > degrees.
+- **Production mindset**: 689 commits, 6 systems, 11 days. Live site. Real impact.
+- **Proven trajectory**: Self-taught, construction background, age 30. Skills beat credentials.
 
 **I'm not waiting for permission. I'm building the future.**
