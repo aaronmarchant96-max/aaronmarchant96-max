@@ -15,7 +15,7 @@ My work focuses on turning unclear input into structured output: classify the pr
 
 I’m a builder and product developer in Calgary, Alberta. I work as a Data Annotator at TELUS, and that review-focused work maps directly to how I build: careful judgment, clear rationale, and conservative claims.
 
-REI.ai is the flagship product: a cost-aware routing and reasoning system that classifies prompts locally, routes them to the cheapest capable model, and keeps the reasoning traceable. Across the public portfolio, I’ve built six production systems with 689+ commits total.
+REI.ai is the flagship product: a cost-aware routing and reasoning system that classifies prompts locally, routes them to the cheapest capable model, and keeps the reasoning traceable. Across the portfolio repos I can verify here, I’ve built six production systems with 812+ commits total.
 
 My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing. I look for failure modes: where systems get confused, where outputs drift, where instructions break down, and where uncertainty should be made visible.
 
@@ -116,7 +116,7 @@ If you are reviewing this portfolio quickly, start here:
 - **Ongoing**: Multi-model validation and review-first development
 
 ### Key Stats
-- **689+ commits** across 6+ repositories
+- **812+ commits** across the portfolio repos I can verify here
 - **6 production systems** across the public portfolio
 - **440+ tests** in REI.ai across 31 suites
 - **117 people**, 73 documents in the live Family Archive
