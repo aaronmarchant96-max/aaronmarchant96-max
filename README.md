@@ -5,25 +5,23 @@ Reference: [CARDO REI Methodology](PROMPTHOUND-DOCS/CARDO-REI.md)
 
 # PromptHound Labs
 
-> I build AI tools that help people think more clearly.
+> I build AI systems for evaluation, routing, and structured reasoning.
 
-PromptHound Labs is my portfolio for AI evaluation, reasoning systems, and evidence-based tooling.
+PromptHound Labs is my portfolio for cost-aware LLM systems, adversarial testing, and evidence-based tooling.
 
-My work focuses on turning unclear input into structured output: define the problem, separate facts from assumptions, test the result, and document the limits.
+My work focuses on turning unclear input into structured output: classify the problem, route it to the right model, make assumptions explicit, and document the limits.
 
 ## About Me
 
-I'm a self-taught builder from Calgary, Alberta. I started with my first computer in December 2025 and began building with AI in April 2026. I’m 30, with no formal CS degree, and I’ve focused on learning through shipped work.
+I’m a builder and product developer in Calgary, Alberta. I work as a Data Annotator at TELUS, and that review-focused work maps directly to how I build: careful judgment, clear rationale, and conservative claims.
 
-I use a small tool stack for cross-checking and validation, including 4 CLI tools and 6 LLM models. The goal is not speed alone — it is to make judgment more disciplined and outputs easier to verify.
+REI.ai is the flagship product: a cost-aware routing and reasoning system that classifies prompts locally, routes them to the cheapest capable model, and keeps the reasoning traceable. Across the public portfolio, I’ve shipped six production systems and 689+ commits.
 
-In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **689 commits** across my repos. I currently work as a **Data Annotator at TELUS**, which keeps my work grounded in careful review, guideline following, and evidence-based judgment.
-
-My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I look for failure modes: where systems get confused, where outputs drift, where instructions break down, and where uncertainty should be made explicit.
+My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing. I look for failure modes: where systems get confused, where outputs drift, where instructions break down, and where uncertainty should be made visible.
 
 I use AI development tools as support, not as a substitute for review. I still frame the problem, inspect the output, run the checks, test the app, clean up the docs, and decide whether the work is ready to ship.
 
-My learning style is iterative and practical: build, verify, refine, and then go deeper into the code. That approach has helped me move fast without losing discipline.
+My workflow is iterative and practical: build, verify, refine, and then go deeper into the code.
 
 ## Methodology: CARDO REI
 
@@ -62,8 +60,6 @@ I am building a repeatable way to test ideas, catch weak spots, and turn rough A
 
 **AI evaluation | LLM red teaming | structured output reliability | computer vision event extraction**
 
-Self-taught AI evaluation and security builder in Calgary, Alberta.
-
 I build small, reproducible systems that turn messy inputs into reviewable evidence.
 
 ```text
@@ -81,15 +77,16 @@ My focus is narrow tests that can be run, inspected, repeated, and improved.
 
 ## What I Build
 
-**At the core:** I build structured reasoning systems that turn messy inputs into reviewable evidence. My tools operate across multiple domains, all unified by the CARDO REI methodology.
+**At the core:** I build structured reasoning systems that turn messy inputs into reviewable evidence. REI.ai is the flagship, and the supporting tools extend the same approach across evaluation, red-teaming, computer vision, and research workflows.
 
 | Area | Current proof of work |
 |---|---|
+| REI.ai | Cost-aware LLM routing and structured reasoning. Local classification, model selection, and traceable output. |
 | LLM evaluation | Local adversarial harnesses, pressure tests, policy boundary checks, and structured output reliability tests |
 | Prompt injection | RAG trust-boundary tests, poisoned context cases, and instruction conflict analysis |
 | Computer vision | Local OpenCV pipelines for event extraction, motion review, and candidate triage |
 | Anomaly workflows | Public footage and satellite pipelines that extract candidates without overclaiming |
-| Argument evaluation | Debate Furnace, a React prototype for pressure-testing both sides of a question |
+| Argument evaluation | Debate Furnace, a React app for structured argument pressure-testing |
 | Cost-benefit analysis | CARDO GUARD, a decision engine that weighs AI risk scores against economic consequences |
 | Industrial monitoring | Tracepoint, equipment signal analysis with cost-optimized action recommendations |
 | Weather analysis | Storm Replay, historical weather imagery calibration and detection validation |
@@ -100,10 +97,10 @@ My focus is narrow tests that can be run, inspected, repeated, and improved.
 
 If you are reviewing this portfolio quickly, start here:
 
-1. **Arena Harness**  
-   The strongest AI evaluation repo, with case studies, structured evidence, and repeatable test design.
-2. **QA Artifacts**  
-   Job-facing QA and UAT examples inside [llm-adversarial-testing/qa_artifacts](https://github.com/aaronmarchant96-max/llm-adversarial-testing/tree/main/qa_artifacts).
+1. **REI.ai**  
+   The flagship product: cost-aware routing, structured reasoning, and traceable model selection.
+2. **llm-adversarial-testing**  
+   Local LLM evaluation harness with case studies, structured evidence, and repeatable test design.
 3. **Debate Furnace**  
    A product-style React app that shows how I turn structured reasoning ideas into a usable tool.
 
@@ -112,22 +109,40 @@ If you are reviewing this portfolio quickly, start here:
 ### Professional
 - **Data Annotator, TELUS Digital** (Current): Paid AI rating work involving audio review, image-result satisfaction, writing-quality evaluation, and text-response assessment. This work directly supports my portfolio focus on guideline following, careful judgment, expected-vs-actual review, and clear rationale writing.
 
-### Self-Taught Journey
-- **December 2025**: First computer
-- **April 2026**: Started building with AI
+### Timeline
+- **December 2025**: Started learning and building
+- **April 2026**: Began building AI tools publicly
 - **June 24-26, 2026**: Shipped **6 production systems in 11 days** (689 commits total)
-- **Ongoing**: Continuous learning with 4 CLI tools + 6 LLM models for cross-checking and validation
+- **Ongoing**: Multi-model validation and review-first development
 
 ### Key Stats
 - **689+ commits** across 6+ repositories
 - **6 production systems** built and shipped in 11 days
-- **24 passing Jest tests** in family-archive
+- **1.35 billion tokens** processed in REI.ai
+- **$14.66 total API cost** in REI.ai
+- **440+ tests** across 31 suites in REI.ai
 - **117 people**, 73 documents in the live Family Archive
 - **Multi-AI orchestration**: Using multiple models as support for validation and refinement
 
 ## Featured Projects
 
-### 1. Arena Harness
+### 1. REI.ai
+
+**Repo:** [rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
+
+Flagship product for cost-aware LLM routing and structured reasoning. REI.ai classifies prompts locally, routes them to the cheapest capable model, and keeps the reasoning traceable.
+
+Current highlights:
+
+```text
+5 reasoning domains
+1.35 billion tokens processed
+$14.66 total API cost
+440+ tests across 31 suites
+12 landmark legal cases
+```
+
+### 2. llm-adversarial-testing
 
 **Repo:** [llm-adversarial-testing](https://github.com/aaronmarchant96-max/llm-adversarial-testing)
 
@@ -136,129 +151,49 @@ A local LLM evaluation harness for testing whether models preserve meaning, poli
 Current highlights:
 
 ```text
-Case 006: Policy vs poisoned retrieved context
-Case 007: Refund authorization boundary testing
-Case 008: Transcript rule application rater validation
-```
-
-What this shows:
-
-```text
-local model testing
+case studies
 control vs pressure variants
 schema stability vs meaning preservation
 structured JSONL logs
 failure labels and conservative writeups
 ```
 
-This is my flagship AI evaluation project.
-
-### 2. Debate Furnace
+### 3. Debate Furnace
 
 **Repo:** [debate-furnace](https://github.com/aaronmarchant96-max/debate-furnace)
 
 A React argument pressure-testing app that runs both sides of a question through structured rounds, flags weak reasoning, and shows what survived the heat.
 
-Core line:
-
-```text
-We do not give you the answer. We show you what survived the heat.
-```
-
-Current focus:
-
-```text
-question type detection
-claim drift detection
-topic-specific final reports
-copyable markdown report output
-rich script reference archived in /docs
-```
-
-This is a product-style evaluation prototype. The live app is intentionally compact for testing, while the richer report logic is preserved in the repo docs.
-
-### 3. UAP Footage Analyzer
+### 4. UAP Footage Analyzer
 
 **Repo:** [uap-footage-analyzer](https://github.com/aaronmarchant96-max/uap-footage-analyzer)
 
-An experimental OpenCV pipeline for extracting high motion-delta events from publicly released DOD UAP footage datasets.
+An OpenCV pipeline for extracting high motion-delta events from publicly released DOD UAP footage datasets.
 
-Current V3 result:
-
-```text
-57 videos processed
-570 candidate motion events detected
-329 residual review candidates retained
-23 high-priority human review candidates
-```
-
-This tool does not classify objects or make claims about origin. It is a reproducible event extraction workflow for manual review.
-
-### 4. GOES Anomaly Hunter
+### 5. GOES Anomaly Hunter
 
 **Repo:** [goes-anomaly-hunter](https://github.com/aaronmarchant96-max/goes-anomaly-hunter)
 
 A public-data anomaly workflow using NOAA GOES thermal imagery to extract and log candidate hotspot signals for review.
 
-Focus:
-
-```text
-public satellite data
-thermal thresholding
-candidate hotspot extraction
-image rendering
-structured summaries
-```
-
-This project fits the same pattern as the footage tools: extract candidate signals, log them clearly, and avoid claiming more than the data supports.
-
-### 5. Local Video Motion Zone Detector
+### 6. Local Video Motion Zone Detector
 
 **Repo:** [local-video-motion-zone-detector](https://github.com/aaronmarchant96-max/local-video-motion-zone-detector)
 
-A lightweight OpenCV motion-zone detector for local video files with synthetic demo footage, JSONL event logs, and annotated snapshots.
+A lightweight local motion detector for video review with JSONL event logs and annotated snapshots.
 
-Focus:
-
-```text
-local video review
-zone-based motion detection
-synthetic demo input
-JSONL event output
-annotated frame snapshots
-```
-
-This is not facial recognition, object identification, or production surveillance. It is a local event extraction demo.
-
-### 6. CARDO GUARD
-
-**Repo:** [llm-adversarial-testing](https://github.com/aaronmarchant96-max/llm-adversarial-testing) (integrated)
-
-A cost-benefit decision engine that weighs AI risk scores against economic consequences. Built on the principle that "AI confidence is not the decision - cost-weighted consequence is the decision gate."
-
-### 7. Tracepoint
-
-**Repo:** [Private/Industrial] (Integrated into workflow)
-
-Industrial signal monitoring with cost-optimized action recommendations. Tracks equipment signals (vibration, temperature, pressure, flow) and provides human-review-ready decision support.
-
-### 8. Storm Replay
-
-**Repo:** [Private/Weather] (Integrated into workflow)
-
-Historical weather imagery calibration system. Tests detection systems against known events (like the Dec 10-11, 2021 tornado outbreak) to validate thresholds and reduce false negatives.
-
-### 9. Story Forge
-
-**Repo:** [Private/Creative] (Integrated into workflow)
-
-Source-to-story transformation engine. Takes real historical events (like the Donner Party) and generates genre-remixed narratives while maintaining visible source trails.
-
-### 10. Family Archive
+### 7. Family Archive
 
 **Repo:** [family-archive](https://github.com/aaronmarchant96-max/family-archive) | **Live:** [family-archive-rose.vercel.app](https://family-archive-rose.vercel.app)
 
-A production-grade genealogy research pipeline with 117 people, 73 documents, and 3 family stories. Features automated testing (24 passing Jest tests), CSV-to-JSON ETL, and deployment on Vercel.
+A production genealogy research pipeline with 117 people, 73 documents, automated tests, CSV-to-JSON ETL, and Vercel deployment.
+
+## Integrated Systems
+
+- **CARDO GUARD** — cost-benefit decision engine for AI risk scoring and action gating
+- **Tracepoint** — industrial signal monitoring with human-review-ready recommendations
+- **Storm Replay** — historical weather imagery calibration and detection validation
+- **Story Forge** — source-to-story transformation with visible source trails
 
 ## Common Workflow
 
@@ -293,7 +228,7 @@ GitHub CLI
 
 ## What I Am Building Toward
 
-I am building a portfolio for junior AI security, AI evaluation, LLM reliability, and red-team support work.
+I am building a portfolio for AI security, AI evaluation, LLM reliability, and red-team support work.
 
 The practical standard I use:
 
@@ -317,13 +252,10 @@ GitHub: [aaronmarchant96-max](https://github.com/aaronmarchant96-max)
 
 **Structured outputs for messy input. Bring the hard question. We'll find the hinge.**
 
-I don't claim to be an expert in any single domain. But I've built a **methodology (CARDO REI)** and a **brain bank (4 CLIs + 6 LLMs)** that lets me learn fast, build faster, and ship production-grade systems across multiple domains.
+CARDO REI is the operating method behind the portfolio. It keeps the reasoning visible, separates facts from assumptions, and makes the output easier to review.
 
 What I bring:
-- **Self-taught relentlessness**: From zero to production in months
-- **Methodology-first thinking**: CARDO REI works across any problem
-- **Multi-AI orchestration**: Using multiple models as thinking partners
-- **Production mindset**: 689 commits, 6 systems, 11 days. Live site. Real impact.
-- **Proven trajectory**: Self-taught, construction background, age 30. Skills beat credentials.
-
-**I'm not waiting for permission. I'm building the future.**
+- **Methodology-first thinking**: CARDO REI works across domains
+- **Evidence-first review**: claims stay tied to testable output
+- **Multi-model validation**: multiple tools and providers for cross-checking
+- **Production mindset**: public repos, live deployments, and documented limits
