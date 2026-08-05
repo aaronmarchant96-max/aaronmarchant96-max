@@ -228,7 +228,7 @@ GitHub CLI
 
 ## What I Am Building Toward
 
-I am building a portfolio for AI security, AI evaluation, LLM reliability, and red-team support work.
+I am a self-taught builder and product developer in Calgary, Alberta. I build a portfolio for AI security, AI evaluation, LLM reliability, and red-team support work.
 
 The practical standard I use:
 
