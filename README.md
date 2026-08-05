@@ -5,25 +5,25 @@ Reference: [CARDO REI Methodology](PROMPTHOUND-DOCS/CARDO-REI.md)
 
 # PromptHound Labs
 
-> I build AI tools that turn messy information into something people can actually use.
+> I build AI tools that help people think more clearly.
 
-PromptHound Labs is where I build small, focused AI tools and testing projects.
+PromptHound Labs is my portfolio for AI evaluation, reasoning systems, and evidence-based tooling.
 
-I am not trying to make a giant startup or sell myself as a senior software engineer. I am building practical tools that solve clear problems. The common thread is simple: take something messy, break it down, test it, document it, and make it easier to use.
+My work focuses on turning unclear input into structured output: define the problem, separate facts from assumptions, test the result, and document the limits.
 
 ## About Me
 
-I'm a self-taught builder from Calgary, Alberta. Started with my first computer in December 2025, began experimenting with AI and development in April 2026. Now building production-grade AI systems. Age 30, with no formal CS education - everything is self-learned through hands-on building.
+I'm a self-taught builder from Calgary, Alberta. I started with my first computer in December 2025 and began building with AI in April 2026. I’m 30, with no formal CS degree, and I’ve focused on learning through shipped work.
 
-I operate a **brain bank** of 4 CLI tools and 6 LLM models (including ChatGPT 5.5 for pro reasoning) that I use for cross-referencing, validation, and feedback. This multi-AI approach helps me pinpoint gaps, refine my methodology, and accelerate learning.
+I use a small tool stack for cross-checking and validation, including 4 CLI tools and 6 LLM models. The goal is not speed alone — it is to make judgment more disciplined and outputs easier to verify.
 
-In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **689 commits** across my repos. Currently employed as a **Data Annotator at TELUS**, proving that skills beat degrees.
+In June 2026, I shipped **6 production systems in 11 days** under the PromptHound Labs umbrella, totaling **689 commits** across my repos. I currently work as a **Data Annotator at TELUS**, which keeps my work grounded in careful review, guideline following, and evidence-based judgment.
 
-My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I like finding where AI systems get confused, where outputs drift, where instructions break down, and where a messy result can be turned into clear evidence.
+My main focus is AI evaluation, LLM testing, structured reasoning, and adversarial testing frameworks. I look for failure modes: where systems get confused, where outputs drift, where instructions break down, and where uncertainty should be made explicit.
 
-I use AI assisted development tools, but I do not treat them like magic. I still have to frame the problem, review the output, run the checks, test the app, clean up the docs, and decide whether the work is good enough to ship.
+I use AI development tools as support, not as a substitute for review. I still frame the problem, inspect the output, run the checks, test the app, clean up the docs, and decide whether the work is ready to ship.
 
-I’m learning in a way that fits how the industry works right now. I use AI a lot to explore ideas, build, and ship, while I keep taking courses on the side. My job is to direct the tools well: break problems down, review the output critically, keep the structure consistent, and make the limits and evidence easy to see. As I build depth, I go back through the code to really understand it. That mix of fast iteration and deliberate learning is how I’m trying to get effective quickly without skipping the fundamentals.
+My learning style is iterative and practical: build, verify, refine, and then go deeper into the code. That approach has helped me move fast without losing discipline.
 
 ## Methodology: CARDO REI
 
@@ -38,7 +38,7 @@ Every project follows **CARDO REI** - a methodology I created (inspired by Michi
 - **E**valuate: Assign confidence levels, make cost-weighted decisions
 - **I**terate: Refine based on feedback and new evidence
 
-This methodology is the foundation of all my work, from AI evaluation to genealogy research. It ensures every output is **structured, reviewable, and evidence-based**.
+This methodology is the foundation of all my work, from AI evaluation to genealogy research. It keeps the output structured, reviewable, and evidence-based.
 
 ## How I Build
 
@@ -58,7 +58,7 @@ Every project follows the same basic process:
 
 That process is the main theme of my portfolio.
 
-I am not just trying to generate code. I am trying to build a repeatable way to test ideas, catch weak spots, and turn rough AI behavior into something structured, reviewable, and useful.
+I am building a repeatable way to test ideas, catch weak spots, and turn rough AI behavior into something structured, reviewable, and useful.
 
 **AI evaluation | LLM red teaming | structured output reliability | computer vision event extraction**
 
@@ -70,7 +70,7 @@ I build small, reproducible systems that turn messy inputs into reviewable evide
 messy input -> candidate signals -> structured logs -> manual review -> documented limits
 ```
 
-My focus is not broad claims. My focus is narrow tests that can be run, inspected, repeated, and improved.
+My focus is narrow tests that can be run, inspected, repeated, and improved.
 
 ![Python](https://img.shields.io/badge/Python-111827?style=flat&logo=python)
 ![React](https://img.shields.io/badge/React-111827?style=flat&logo=react)
@@ -114,16 +114,16 @@ If you are reviewing this portfolio quickly, start here:
 
 ### Self-Taught Journey
 - **December 2025**: First computer
-- **April 2026**: Started with AI and development
+- **April 2026**: Started building with AI
 - **June 24-26, 2026**: Shipped **6 production systems in 11 days** (689 commits total)
-- **Ongoing**: Continuous learning with 4 CLI tools + 6 LLM models as a "brain bank" for cross-referencing and validation
+- **Ongoing**: Continuous learning with 4 CLI tools + 6 LLM models for cross-checking and validation
 
 ### Key Stats
 - **689+ commits** across 6+ repositories
 - **6 production systems** built and shipped in 11 days
 - **24 passing Jest tests** in family-archive
 - **117 people**, 73 documents in the live Family Archive
-- **Multi-AI orchestration**: Using multiple models as thinking partners for validation and refinement
+- **Multi-AI orchestration**: Using multiple models as support for validation and refinement
 
 ## Featured Projects
 
