@@ -118,11 +118,9 @@ If you are reviewing this portfolio quickly, start here:
 ### Key Stats
 - **689+ commits** across 6+ repositories
 - **6 production systems** built and shipped in 11 days
-- **1.35 billion tokens** processed in REI.ai
-- **$14.66 total API cost** in REI.ai
-- **440+ tests** across 31 suites in REI.ai
+- **440+ tests** in REI.ai across 31 suites
 - **117 people**, 73 documents in the live Family Archive
-- **Multi-AI orchestration**: Using multiple models as support for validation and refinement
+- **Multi-model validation**: multiple tools and providers for cross-checking
 
 ## Featured Projects
 
@@ -131,6 +129,8 @@ If you are reviewing this portfolio quickly, start here:
 **Repo:** [rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
 
 Flagship product for cost-aware LLM routing and structured reasoning. REI.ai classifies prompts locally, routes them to the cheapest capable model, and keeps the reasoning traceable.
+
+Impact: the product keeps the human in the loop while the system handles classification, routing, and the cost gate.
 
 Current highlights:
 
@@ -148,6 +148,8 @@ $14.66 total API cost
 
 A local LLM evaluation harness for testing whether models preserve meaning, policy decisions, and structured output integrity under control and pressure conditions.
 
+Impact: catches policy drift, meaning loss, and brittle outputs before they reach a user.
+
 Current highlights:
 
 ```text
@@ -164,11 +166,15 @@ failure labels and conservative writeups
 
 A React argument pressure-testing app that runs both sides of a question through structured rounds, flags weak reasoning, and shows what survived the heat.
 
+Impact: turns reasoning into a visible product flow instead of a hidden prompt exercise.
+
 ### 4. UAP Footage Analyzer
 
 **Repo:** [uap-footage-analyzer](https://github.com/aaronmarchant96-max/uap-footage-analyzer)
 
 An OpenCV pipeline for extracting high motion-delta events from publicly released DOD UAP footage datasets.
+
+Impact: separates candidate events from interpretation so review stays human-led.
 
 ### 5. GOES Anomaly Hunter
 
@@ -176,17 +182,23 @@ An OpenCV pipeline for extracting high motion-delta events from publicly release
 
 A public-data anomaly workflow using NOAA GOES thermal imagery to extract and log candidate hotspot signals for review.
 
+Impact: logs candidate signals cleanly without claiming more than the data supports.
+
 ### 6. Local Video Motion Zone Detector
 
 **Repo:** [local-video-motion-zone-detector](https://github.com/aaronmarchant96-max/local-video-motion-zone-detector)
 
 A lightweight local motion detector for video review with JSONL event logs and annotated snapshots.
 
+Impact: produces inspectable motion candidates for manual review.
+
 ### 7. Family Archive
 
 **Repo:** [family-archive](https://github.com/aaronmarchant96-max/family-archive) | **Live:** [family-archive-rose.vercel.app](https://family-archive-rose.vercel.app)
 
 A production genealogy research pipeline with 117 people, 73 documents, automated tests, CSV-to-JSON ETL, and Vercel deployment.
+
+Impact: keeps family records structured, testable, and deployable.
 
 ## Integrated Systems
 
