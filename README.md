@@ -5,9 +5,9 @@ Reference: [CARDO REI Methodology](PROMPTHOUND-DOCS/CARDO-REI.md)
 
 # PromptHound Labs
 
-> I build AI systems for evaluation, routing, and structured reasoning.
+> I build cost-aware AI systems for evaluation and structured reasoning.
 
-PromptHound Labs is my portfolio for cost-aware LLM systems, adversarial testing, and evidence-based tooling.
+PromptHound Labs is my portfolio for cost-aware AI systems, adversarial testing, and evidence-based tooling.
 
 My work focuses on turning unclear input into structured output: classify the problem, route it to the right model, make assumptions explicit, and document the limits.
 
