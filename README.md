@@ -66,7 +66,7 @@ Here is a quick guide to what I've built so far:
 
 - **6 Production Systems** built and shipped in 11 days (June 2026)
 - **812+ Code Commits** across portfolio repositories
-- **558 Automated Unit Tests** in the main REI platform, ensuring zero regressions
+- **677 Automated Unit Tests** across 57 test suites in the main REI platform, ensuring zero regressions
 - **$14.66 Total API Spend** processing over **1.35 billion tokens** on an Intel Celeron J4105 PC with a $25/mo budget
 
 ---
