@@ -52,7 +52,7 @@ Whether evaluating an LLM router, building a computer-vision pipeline, or struct
 
 | Project | Description | Links |
 |---|---|---|
-| **REI.ai Platform** | Cost-aware LLM router with multi-provider fallbacks (DeepSeek/Gemini/Groq/OpenAI), Hierarchical Context Memory (HCM), and in-browser security firewall. 876 tests across 69 suites. | [Live App](https://prompthound-labs.vercel.app/#rei) · [Code](https://github.com/aaronmarchant96-max/rei-ai) |
+| **REI.ai Platform** | Cost-aware LLM router with OpenAI-compatible proxy, multi-provider fallbacks (DeepSeek/Gemini/Groq/OpenAI), Hierarchical Context Memory (HCM), and in-browser security firewall. 952 tests across 76 suites. | [Live App](https://prompthound-labs.vercel.app/#rei) · [Code](https://github.com/aaronmarchant96-max/rei-ai) |
 | **Arena Harness** | Automated adversarial evaluation environment for stress-testing LLM rule adherence, jailbreak resistance, and mitigation tracking. | [Code](https://github.com/aaronmarchant96-max/llm-adversarial-testing) |
 | **Debate Furnace** | Argument pressure-testing engine that isolates load-bearing reasons from rhetoric and maps decision branches. | [Code](https://github.com/aaronmarchant96-max/debate-furnace) |
 | **Family Archive** | Evidence-backed genealogy knowledge base with 117 profiles, 73 original documents, and automated validation tests. | [Live Site](https://family-archive-rose.vercel.app) · [Code](https://github.com/aaronmarchant96-max/family-archive) |
@@ -64,9 +64,9 @@ Whether evaluating an LLM router, building a computer-vision pipeline, or struct
 ## By The Numbers
 
 - **6 Production Systems** built and deployed
-- **876 Automated Unit & Integration Tests** across 69 test suites in the main REI platform, ensuring zero regressions
+- **952 Automated Unit & Integration Tests** across 76 test suites in the main REI platform, ensuring zero regressions
 - **800+ Code Commits** across portfolio repositories
-- **$14.66 Total API Spend** processing over **1.35 billion tokens** on an Intel Celeron J4105 PC with a $25/mo budget
+- **$14.66 Total API Spend** processing over **1.84 billion tokens** on an Intel Celeron J4105 PC with a $25/mo budget
 - **97%+ Prompt Cache Hit Rate** on structured prefix workloads
 
 ---
