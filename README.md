@@ -3,7 +3,7 @@ status: canonical
 authority_scope: builder-story-and-case-studies
 owner: Aaron Marchant
 last_verified: 2026-08-26
-verified_against_commit: 65f48d0
+verified_against_commit: 9075399
 claims_source: docs/CLAIM_LEDGER.md
 supersedes: []
 superseded_by: null
@@ -44,7 +44,7 @@ archived_at: null
 ---
 
 ### 1. REI.ai — AI FinOps Proxy & Decision Audit Engine
-**Repository:** [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai) · **Live:** [https://rei.ai](https://rei.ai) · **Pilot:** [https://rei.ai/#pilot](https://rei.ai/#pilot)
+**Repository:** [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai) · **Live:** [https://rei.ai](https://rei.ai)
 
 * **Problem**: Engineering teams waste 80%+ of their inference budgets by blindly routing routine queries to expensive flagship models (e.g. GPT-4o) when sub-cent models (e.g. LLaMA 3.1 8B, DeepSeek-Chat) provide identical accuracy.
 * **Architecture**:
@@ -113,13 +113,9 @@ archived_at: null
 
 ---
 
-## 🤝 Commercial Audits & Contact
-
-I am recruiting engineering leads for **14-Day Production Traffic Audits**:
-- Upload 1–14 days of request logs to the self-serve workspace at [rei.ai/#pilot](https://rei.ai/#pilot).
-- Receive an executive audit package with a 3-bucket spend breakdown and non-deploy recommendations.
+## 🌐 Links & Contact
 
 - 🌐 **Live Platform**: [https://rei.ai](https://rei.ai)
-- 🪝 **Customer Pilot Workspace**: [https://rei.ai/#pilot](https://rei.ai/#pilot)
+- 📦 **Repository**: [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
 - 🐦 **Twitter / X**: [@PromptHound96](https://x.com/PromptHound96)
 - 💻 **GitHub**: [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max)
