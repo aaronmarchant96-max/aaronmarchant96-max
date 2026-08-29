@@ -56,7 +56,7 @@ archived_at: null
 * **Measured Telemetry**:
   - **1,364 passing automated tests** across 120 test suites (100% green CI).
   - **1,026 conventional commits** on `main` branch.
-  - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **$23.52** ($567.06 savings vs $590.57 no-cache counterfactual).
+  - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **\$23.52** (\$567.06 savings vs \$590.57 no-cache counterfactual).
   - **< 1ms in-memory decision latency**.
 * **Reproduce from Clean Checkout**:
   ```bash
