@@ -21,11 +21,11 @@ archived_at: null
 
 ## 🎯 Profile & Core Competencies
 
-- **Inference FinOps & Pre-Spend Routing**: Sub-14ms pre-flight model selection, OpenAI-compatible proxy gateways (`/v1/chat/completions`), prompt-freeze caching, and 3-bucket traffic audits (**97.35% input-cache hit rate** across 1.848B tokens).
+- **Inference FinOps & Pre-Spend Routing**: Sub-1ms in-memory pre-flight model selection (< 40ms e2e), OpenAI-compatible proxy gateways (`/v1/chat/completions`), prompt-freeze caching, and 3-bucket traffic audits (**97.35% input-cache hit rate** across 1.848B tokens).
 - **Zero-Risk Decision Audit & Shadow Mode**: Decoupled `ExecutionController` enforcing shadow mode with **0 production model overrides** and **0 extra provider API calls**.
 - **Adversarial Security & Local Model Gates**: D1 threat taxonomy (14 threat categories), Feynman Gate evaluation harness, and local LLaMA 3.2 epistemic quality gating.
 - **Full-Stack AI Engineering**: End-to-end React/TypeScript interfaces, serverless backends, Customer Pilot Workspace (`/#pilot`), and hexagonal multi-package runtimes (EchoForge).
-- **Empirical Rigor**: **1,346 automated tests across 119 suites** (100% green CI), **1,013 conventional commits**, and machine-reproducible claim verification (`scripts/gen-claims.mjs`).
+- **Empirical Rigor**: **1,364 automated tests across 120 suites** (100% green CI), **1,026 conventional commits**, and machine-reproducible claim verification (`scripts/gen-claims.mjs`).
 
 ---
 
@@ -35,7 +35,7 @@ archived_at: null
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                             THE 3-PILLAR TRIAD                              │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ 1. REI.ai          ──► AI Systems & FinOps (Proxy, <14ms Routing, 1,346 Tests)│
+│ 1. REI.ai          ──► AI Systems & FinOps (Proxy, <1ms Routing, 1,364 Tests) │
 │ 2. Arena Harness   ──► AI Security & Evals (Feynman Gate, 136 Blind Prompts)│
 │ 3. Family Archive  ──► Full-Stack Product (GPS Evidence Tiers, Provenance)  │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -49,15 +49,15 @@ archived_at: null
 * **Problem**: Engineering teams waste 80%+ of their inference budgets by blindly routing routine queries to expensive flagship models (e.g. GPT-4o) when sub-cent models (e.g. LLaMA 3.1 8B, DeepSeek-Chat) provide identical accuracy.
 * **Architecture**:
   - **OpenAI-Compatible Gateway (`/v1/chat/completions`)**: Drop-in proxy for Cursor, Cline, Aider, and backend pipelines.
-  - **Pre-Spend Selection**: Evaluates prompt complexity in **`< 14ms`** locally without calling an LLM to route an LLM.
+  - **Pre-Spend Selection**: Evaluates prompt complexity in **`< 1ms`** in-memory (**`< 40ms`** e2e) without calling an LLM to route an LLM.
   - **3-Bucket Audit Segmentation**: Categorizes requests into *Candidate to Shadow*, *Retain Current Tier*, and *Insufficient Evidence*.
   - **`ingestable ≠ replay-routable`**: Missing or redacted prompt text is normalized in denominator audits but excluded from savings claims.
   - **BYOK SaaS Model**: Customer-owned provider keys; zero inference balance-sheet liability.
 * **Measured Telemetry**:
-  - **1,346 passing automated tests** across 119 test suites (100% green CI).
-  - **1,013 conventional commits** on `main` branch.
+  - **1,364 passing automated tests** across 120 test suites (100% green CI).
+  - **1,026 conventional commits** on `main` branch.
   - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **$23.52** ($567.06 savings vs $590.57 no-cache counterfactual).
-  - **< 14ms pre-spend decision latency**.
+  - **< 1ms in-memory decision latency**.
 * **Reproduce from Clean Checkout**:
   ```bash
   git clone https://github.com/aaronmarchant96-max/rei-ai.git
@@ -105,8 +105,8 @@ archived_at: null
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ • Total Tokens Processed ──► 1.848 Billion development & evaluation tokens  │
 │ • Total Build Spend     ──► $23.52 API spend (97.35% input cache hit rate)  │
-│ • Verified Test Suite   ──► 1,346 tests across 119 suites (100% Green CI)   │
-│ • Git History           ──► 1,013 conventional commits on main branch       │
+│ • Verified Test Suite   ──► 1,364 tests across 120 suites (100% Green CI)   │
+│ • Git History           ──► 1,026 conventional commits on main branch       │
 │ • Operating Budget      ──► ~$60/month lean serverless infrastructure       │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
