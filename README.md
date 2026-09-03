@@ -2,8 +2,8 @@
 status: canonical
 authority_scope: builder-story-and-case-studies
 owner: Aaron Marchant
-last_verified: 2026-08-26
-verified_against_commit: 9075399
+last_verified: 2026-09-02
+verified_against_commit: 4e729c2
 claims_source: docs/CLAIM_LEDGER.md
 supersedes: []
 superseded_by: null
@@ -21,11 +21,11 @@ archived_at: null
 
 ## 🎯 Profile & Core Competencies
 
-- **Inference FinOps & Pre-Spend Routing**: Sub-1ms in-memory pre-flight model selection (< 40ms e2e), OpenAI-compatible proxy gateways (`/v1/chat/completions`), prompt-freeze caching, and 3-bucket traffic audits (**97.35% input-cache hit rate** across 1.848B tokens).
-- **Zero-Risk Decision Audit & Shadow Mode**: Decoupled `ExecutionController` enforcing shadow mode with **0 production model overrides** and **0 extra provider API calls**.
-- **Adversarial Security & Local Model Gates**: D1 threat taxonomy (14 threat categories), Feynman Gate evaluation harness, and local LLaMA 3.2 epistemic quality gating.
+- **Inference FinOps & Pre-Spend Routing**: Deterministic pre-flight model selection, OpenAI-compatible proxy gateways (`/v1/chat/completions`), prompt-freeze caching, and 3-bucket traffic audits (**97.3502% measured input-cache hit rate** across 1,848,473,560 tokens).
+- **Evidence-Bounded Decision Audit**: Replay analysis precedes live changes. The isolated `ExecutionController` unit contract preserves the requested model and adds no provider call in shadow mode; production integration remains a separate gate.
+- **Adversarial Security & Local Model Gates**: A 16-category D1 taxonomy, fixed red-team regression corpus, Feynman Gate evaluation harness, and an incomplete local-model evaluation retained with its failure evidence.
 - **Full-Stack AI Engineering**: End-to-end React/TypeScript interfaces, serverless backends, Customer Pilot Workspace (`/#pilot`), and hexagonal multi-package runtimes (EchoForge).
-- **Empirical Rigor**: **1,364 automated tests across 120 suites** (100% green CI), **1,026 conventional commits**, and machine-reproducible claim verification (`scripts/gen-claims.mjs`).
+- **Empirical Rigor**: **1,366/1,366 automated tests across 121/121 suites** passed locally on 2026-09-02, with **1,028 commits on `main`**. Hosted GitHub CI is currently blocked before runner execution.
 
 ---
 
@@ -35,7 +35,7 @@ archived_at: null
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                             THE 3-PILLAR TRIAD                              │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ 1. REI.ai          ──► AI Systems & FinOps (Proxy, <1ms Routing, 1,364 Tests) │
+│ 1. REI.ai          ──► AI Systems & FinOps (Proxy, Evidence, 1,366 Tests)     │
 │ 2. Arena Harness   ──► AI Security & Evals (Feynman Gate, 136 Blind Prompts)│
 │ 3. Family Archive  ──► Full-Stack Product (GPS Evidence Tiers, Provenance)  │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -46,18 +46,18 @@ archived_at: null
 ### 1. REI.ai — AI FinOps Proxy & Decision Audit Engine
 **Repository:** [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai) · **Live:** [https://rei.ai](https://rei.ai)
 
-* **Problem**: Engineering teams waste 80%+ of their inference budgets by blindly routing routine queries to expensive flagship models (e.g. GPT-4o) when sub-cent models (e.g. LLaMA 3.1 8B, DeepSeek-Chat) provide identical accuracy.
+* **Problem**: Teams lack evidence about which routine requests may be candidates for less expensive models without degrading task-specific quality.
 * **Architecture**:
   - **OpenAI-Compatible Gateway (`/v1/chat/completions`)**: Drop-in proxy for Cursor, Cline, Aider, and backend pipelines.
-  - **Pre-Spend Selection**: Evaluates prompt complexity in **`< 1ms`** in-memory (**`< 40ms`** e2e) without calling an LLM to route an LLM.
+  - **Pre-Spend Selection**: Uses deterministic in-memory policy without calling an LLM to route an LLM. A fresh retained benchmark is required before publishing a numeric latency ceiling.
   - **3-Bucket Audit Segmentation**: Categorizes requests into *Candidate to Shadow*, *Retain Current Tier*, and *Insufficient Evidence*.
   - **`ingestable ≠ replay-routable`**: Missing or redacted prompt text is normalized in denominator audits but excluded from savings claims.
   - **BYOK SaaS Model**: Customer-owned provider keys; zero inference balance-sheet liability.
 * **Measured Telemetry**:
-  - **1,364 passing automated tests** across 120 test suites (100% green CI).
-  - **1,026 conventional commits** on `main` branch.
+  - **1,366/1,366 passing automated tests** across 121/121 suites in the latest local run; hosted CI is currently blocked before execution.
+  - **1,028 total commits** on the `main` branch as of 2026-09-02.
   - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **\$23.52** (\$567.06 savings vs \$590.57 no-cache counterfactual).
-  - **< 1ms in-memory decision latency**.
+  - **70.6% pooled classification accuracy** (96/136 unique samples), with implemented-route holdouts ranging from 90% to 100% under their documented exclusions.
 * **Reproduce from Clean Checkout**:
   ```bash
   git clone https://github.com/aaronmarchant96-max/rei-ai.git
@@ -73,13 +73,13 @@ archived_at: null
 
 * **Problem**: AI benchmarks often suffer from dataset contamination, brittle regex parsers, and ungrounded claims. Teams lack standardized ways to test model resilience against prompt injections, system extraction, and quality degradation.
 * **Architecture**:
-  - **D1 Threat Taxonomy**: Zero-token scanner flagging recursive jailbreaks, base64 ciphers, credential leaks, and identity spoofing before API dispatch.
+  - **D1 Threat Taxonomy**: 16-category zero-token scanner flagging recursive jailbreaks, base64 ciphers, credential leaks, and identity spoofing before API dispatch.
   - **Feynman Gate Suite**: 136 ground-truth holdout queries evaluating accuracy across 5 specialized reasoning domains.
   - **Local Model Quality Gate**: Evaluates local candidate models (LLaMA 3.2 3B) separating CARDO structural score from Epistemic correctness score.
 * **Measured Result**:
-  - **100% adherence** under red-team stress testing.
-  - **99.0% epistemic correctness** on local LLaMA candidates.
-  - **Zero silent tool failures**: Strictly validates tool arguments against JSON/Zod schemas with automatic retry loops.
+  - **12/12 correct routes** on the fixed red-team regression corpus, which exercises 11 taxonomy categories; a separate five-entry replay measured 75% route adherence.
+  - The local-model overnight run is **incomplete** (98/136 records, including one delivery failure) and is not represented as promotion evidence.
+  - Tool arguments are covered by JSON/Zod schema-validation and retry tests; no universal zero-failure claim is made.
 
 ---
 
@@ -92,7 +92,7 @@ archived_at: null
   - **Disambiguation Hinge Evaluator**: Isolates conflicting facts before asserting identity matches.
   - **Negative Search Audit Receipts**: Logs exhaustively searched databases where no record was found.
 * **Measured Result**:
-  - **100% citation provenance** on generated genealogical assertions.
+  - Citation and provenance requirements are enforced through schemas and integrity tests; this is not a claim that every generated assertion has been externally audited.
   - Reusable standalone TypeScript library (`archivistEngine.ts`) with dedicated unit test suite.
 
 ---
@@ -105,8 +105,8 @@ archived_at: null
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ • Total Tokens Processed ──► 1.848 Billion development & evaluation tokens  │
 │ • Total Build Spend     ──► $23.52 API spend (97.35% input cache hit rate)  │
-│ • Verified Test Suite   ──► 1,364 tests across 120 suites (100% Green CI)   │
-│ • Git History           ──► 1,026 conventional commits on main branch       │
+│ • Verified Test Suite   ──► 1,366/1,366 tests across 121/121 suites (local) │
+│ • Git History           ──► 1,028 commits on main (measured 2026-09-02)      │
 │ • Operating Budget      ──► ~$60/month lean serverless infrastructure       │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
