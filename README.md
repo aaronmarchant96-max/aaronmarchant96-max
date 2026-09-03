@@ -25,7 +25,7 @@ archived_at: null
 - **Evidence-Bounded Decision Audit**: Replay analysis precedes live changes. The isolated `ExecutionController` unit contract preserves the requested model and adds no provider call in shadow mode; production integration remains a separate gate.
 - **Adversarial Security & Local Model Gates**: A 16-category D1 taxonomy, fixed red-team regression corpus, Feynman Gate evaluation harness, and an incomplete local-model evaluation retained with its failure evidence.
 - **Full-Stack AI Engineering**: End-to-end React/TypeScript interfaces, serverless backends, Customer Pilot Workspace (`/#pilot`), and hexagonal multi-package runtimes (EchoForge).
-- **Empirical Rigor**: **1,366/1,366 automated tests across 121/121 suites** passed locally on 2026-09-02, with **1,028 commits on `main`**. Hosted GitHub CI is currently blocked before runner execution.
+- **Empirical Rigor**: **1,366/1,366 automated tests across 121/121 suites** passed locally on 2026-09-02, with **1,028 commits on `main`**.
 
 ---
 
@@ -54,7 +54,7 @@ archived_at: null
   - **`ingestable ≠ replay-routable`**: Missing or redacted prompt text is normalized in denominator audits but excluded from savings claims.
   - **BYOK SaaS Model**: Customer-owned provider keys; zero inference balance-sheet liability.
 * **Measured Telemetry**:
-  - **1,366/1,366 passing automated tests** across 121/121 suites in the latest local run; hosted CI is currently blocked before execution.
+  - **1,366/1,366 passing automated tests** across 121/121 suites in the latest local run.
   - **1,028 total commits** on the `main` branch as of 2026-09-02.
   - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **\$23.52** (\$567.06 savings vs \$590.57 no-cache counterfactual).
   - **70.6% pooled classification accuracy** (96/136 unique samples), with implemented-route holdouts ranging from 90% to 100% under their documented exclusions.
