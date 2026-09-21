@@ -10,16 +10,16 @@ superseded_by: null
 archived_at: null
 ---
 
-# Hi there, I'm Aaron Marchant 👋 
+# Hi there, I'm Aaron Marchant
 
-**AI Systems Engineer & Solo Founder**  
+**AI Systems Engineer & Solo Founder**
 *Creator of [REI.ai](https://github.com/aaronmarchant96-max/rei-ai) — The OpenAI-Compatible FinOps Proxy & Pre-Spend LLM Router.*
 
 > **"REI does not begin by asking for control of your AI traffic. It begins by earning the right to recommend a change."**
 
 ---
 
-## 🎯 Profile & Core Competencies
+## Profile & Core Competencies
 
 - **Inference FinOps & Pre-Spend Routing**: Deterministic pre-flight model selection, OpenAI-compatible proxy gateways (`/v1/chat/completions`), prompt-freeze caching, and 3-bucket traffic audits (**97.3502% measured input-cache hit rate** across 1,848,473,560 tokens).
 - **Evidence-Bounded Decision Audit**: Replay analysis precedes live changes. The isolated `ExecutionController` unit contract preserves the requested model and adds no provider call in shadow mode; production integration remains a separate gate.
@@ -29,7 +29,7 @@ archived_at: null
 
 ---
 
-## 🏛️ The Three Flagship Projects
+## The Three Flagship Projects
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -97,7 +97,7 @@ archived_at: null
 
 ---
 
-## 🛠️ Build Benchmarks & Engineering Rigor
+## Build Benchmarks & Engineering Rigor
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -113,9 +113,9 @@ archived_at: null
 
 ---
 
-## 🌐 Links & Contact
+## Links & Contact
 
-- 🌐 **Live Platform**: [https://rei.ai](https://rei.ai)
-- 📦 **Repository**: [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
-- 🐦 **Twitter / X**: [@PromptHound96](https://x.com/PromptHound96)
-- 💻 **GitHub**: [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max)
+- **Live Platform**: [https://rei.ai](https://rei.ai)
+- **Repository**: [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
+- **Twitter / X**: [@PromptHound96](https://x.com/PromptHound96)
+- **GitHub**: [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max)
