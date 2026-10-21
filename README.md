@@ -2,8 +2,8 @@
 status: canonical
 authority_scope: builder-story-and-case-studies
 owner: Aaron Marchant
-last_verified: 2026-09-02
-verified_against_commit: 4e729c2
+last_verified: 2026-10-20
+verified_against_commit: 39bbd9b
 claims_source: docs/CLAIM_LEDGER.md
 supersedes: []
 superseded_by: null
@@ -25,7 +25,7 @@ archived_at: null
 - **Evidence-Bounded Decision Audit**: Replay analysis precedes live changes. The isolated `ExecutionController` unit contract preserves the requested model and adds no provider call in shadow mode; production integration remains a separate gate.
 - **Adversarial Security & Local Model Gates**: A 16-category D1 taxonomy, fixed red-team regression corpus, Feynman Gate evaluation harness, and an incomplete local-model evaluation retained with its failure evidence.
 - **Full-Stack AI Engineering**: End-to-end React/TypeScript interfaces, serverless backends, Customer Pilot Workspace (`/#pilot`), and hexagonal multi-package runtimes (EchoForge).
-- **Empirical Rigor**: **1,366/1,366 automated tests across 121/121 suites** passed locally on 2026-09-02, with **1,028 commits on main**.
+- **Empirical Rigor**: **1,366/1,366 automated tests across 121/121 suites** passed locally, with **1,039 commits on main**.
 
 > For technical reviewers: See [Under the Hood: Systems Audit](https://github.com/aaronmarchant96-max/rei-ai/blob/main/docs/WHAT_YOU_MIGHT_MISS.md) for a technical walkthrough of the test harness, multi-agent governance, and caching mechanics.
 
@@ -53,7 +53,7 @@ archived_at: null
   - **BYOK SaaS Model**: Customer-owned provider keys; zero inference balance-sheet liability.
 - **Measured Telemetry**:
   - **1,366/1,366 passing automated tests** across 121/121 suites in the latest local run.
-  - **1,028 total commits** on the `main` branch as of 2026-09-02.
+  - **1,039 total commits** on the `main` branch as of 2026-10-20.
   - **1.848B development tokens** processed through OpenCode/DeepSeek build workflow for **$23.52** ($567.06 savings vs $590.57 no-cache counterfactual).
   - **70.6% pooled classification accuracy** (96/136 unique samples), with implemented-route holdouts ranging from 90% to 100% under their documented exclusions.
 - **Reproduce from Clean Checkout**:
@@ -102,7 +102,7 @@ archived_at: null
 | Total Tokens Processed | **1.848 Billion** development & evaluation tokens | `npm run verify:cache` (`data/cache-spend.csv`) |
 | Total Build Spend | **$23.52** API spend (97.3502% input cache hit rate) | Billing export reconciliation |
 | Verified Test Suite | **1,366/1,366 tests** across 121/121 suites (local) | `npm test -- --runInBand` |
-| Git History | **1,028 commits** on main (measured 2026-09-02) | `git rev-list --count main` |
+| Git History | **1,039 commits** on main (measured 2026-10-20) | `git rev-list --count main` |
 | Operating Budget | ~$60/month lean serverless infrastructure | Infrastructure receipts |
 
 ---
