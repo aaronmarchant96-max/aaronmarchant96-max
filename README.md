@@ -42,7 +42,7 @@ archived_at: null
 ---
 
 ### 1. REI.ai — AI FinOps Proxy & Decision Audit Engine
-**Repository:** [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai) · **Live:** [https://rei.ai](https://rei.ai)
+**Repository:** [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai) · **Live:** [prompthound-labs.vercel.app](https://prompthound-labs.vercel.app/)
 
 - **Problem**: Teams lack evidence about which routine requests may be candidates for less expensive models without degrading task-specific quality.
 - **Architecture**:
@@ -82,7 +82,7 @@ archived_at: null
 ---
 
 ### 3. Family Archive — Full-Stack Knowledge Graph & Genealogical Provenance
-**Repository:** [github.com/aaronmarchant96-max/family-archive](https://github.com/aaronmarchant96-max/family-archive) · **Engine Spec:** [`docs/FAMILY_ARCHIVE_PORTING_SPEC.md`](https://github.com/aaronmarchant96-max/rei-ai/blob/main/docs/FAMILY_ARCHIVE_PORTING_SPEC.md)
+**Repository:** Private (contains family records) · **Engine Spec:** [`docs/FAMILY_ARCHIVE_PORTING_SPEC.md`](https://github.com/aaronmarchant96-max/rei-ai/blob/main/docs/FAMILY_ARCHIVE_PORTING_SPEC.md)
 
 - **Problem**: Historical databases suffer from catastrophic hallucination when AI systems merge records of individuals sharing identical names and birth years.
 - **Architecture**:
@@ -109,7 +109,7 @@ archived_at: null
 
 ## Links & Contact
 
-- **Live Platform**: [https://rei.ai](https://rei.ai)
+- **Live Platform**: [prompthound-labs.vercel.app](https://prompthound-labs.vercel.app/)
 - **Repository**: [github.com/aaronmarchant96-max/rei-ai](https://github.com/aaronmarchant96-max/rei-ai)
 - **Twitter / X**: [@PromptHound96](https://x.com/PromptHound96)
 - **GitHub**: [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max)
